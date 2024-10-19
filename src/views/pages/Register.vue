@@ -9,7 +9,7 @@
         <div class="row justify-content-center">
           <div class="col-12 col-sm-10 col-md-12 col-lg-12 col-xl-10">
             <div class="user-form-logo">
-              <a href="index.html"><img src="@/assets/images/logo.png" alt="logo" /></a>
+              <router-link :to="{name: 'index'}" ><img src="@/assets/images/logo.png" alt="logo" /></router-link>
             </div>
             <div class="user-form-card">
               <div class="user-form-title">
