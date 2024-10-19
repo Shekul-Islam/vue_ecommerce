@@ -27,8 +27,8 @@
                       class="form-control"
                       placeholder="password"
                     /><span class="view-password"
-                      ><i class="fas text-success fa-eye"></i></span
-                    ><!--v-if-->
+                      ><i class="fas text-success fa-eye"></i></span>
+                      <!--v-if-->
                   </div>
                   <div class="form-check mb-3">
                     <input
