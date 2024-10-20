@@ -6,11 +6,7 @@ const cartClose = () => {
 };
 
 
-const couponBtn = () => {
-  
-    $(this).hide(), $(".coupon-form").css("display", "flex");
- 
-};
+
 
 
 
@@ -185,17 +181,10 @@ const couponBtn = () => {
         </li>
       </ul>
       <div class="cart-footer">
-        <button class="coupon-btn" @click="couponBtn">Do you have a coupon code?</button>
-        <form class="coupon-form">
-          <input type="text" placeholder="Enter your coupon code" /><button
-            type="submit"
-          >
-            <span>apply</span>
-          </button>
-        </form>
-        <a class="cart-checkout-btn" href="checkout.html"
+      
+        <router-link :to="{name: 'user.checkout'}" class="cart-checkout-btn" href="checkout.html"
           ><span class="checkout-label">Proceed to Checkout</span
-          ><span class="checkout-price">$369.78</span></a
+          ><span class="checkout-price">$369.78</span></router-link
         >
       </div>
     </aside>

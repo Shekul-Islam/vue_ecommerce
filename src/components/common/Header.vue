@@ -61,13 +61,22 @@ function cartShow() {
                   >
                 </li>
                 <li>
+
                   <router-link :to="{ name: '' }" class="dropdown-item">
                     My Orders</router-link
                   >
                 </li>
                 <li>
                   <router-link :to="{ name: '' }" class="dropdown-item">
-                    My Wishlist</router-link
+                    My Wishlist</router-link>
+                  <router-link :to="{ name: 'user.orderlist' }" class="dropdown-item">
+                    My Order List</router-link
+                  >
+                </li>
+                <li>
+                  <router-link :to="{ name: 'user.wishlist' }" class="dropdown-item">
+                    My Wish List</router-link
+
                   >
                 </li>
               </ul>
