@@ -5,8 +5,10 @@ import Shop from "../views/pages/shop/Shop.vue";
 import { SellerPage, SellerList, SellerApply } from "@/views/pages/seller";
 import WishList from "../views/pages/wishlist/WishList.vue";
 import { Login, Register } from "@/views/auth";
-import {MyProfile, MyOrderList, MyWishList } from "../views/user";
+import {MyProfile, MyOrderList, MyWishList, Checkout } from "../views/user";
 import SingleProduct from "../components/SingleProduct.vue";
+
+
 
 
 
@@ -17,6 +19,7 @@ const routes = [
   { path: "/user/profile", name: "user.profile", component: MyProfile, meta: { title: "My Profile" } },
   { path: "/user/orderlist", name: "user.orderlist", component: MyOrderList, meta: { title: "My Order List" } },
   { path: "/user/wishlist", name: "user.wishlist", component: MyWishList, meta: { title: "My Wish List" } },
+  { path: "/user/checkout", name: "user.checkout", component: Checkout, meta: { title: " Checkout" } },
   {
     path: "/seller-page",
     name: "seller-page",
