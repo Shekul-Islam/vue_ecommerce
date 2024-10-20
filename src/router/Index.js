@@ -1,20 +1,22 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Index from "../views/pages/Index.vue";
+import Index from "../views/pages/home/Index.vue";
 import Shop from "../views/pages/shop/Shop.vue";
 import { SellerPage, SellerList, SellerApply } from "@/views/pages/seller";
 import WishList from "../views/pages/wishlist/WishList.vue";
 import { Login, Register } from "@/views/auth";
 import {MyProfile, MyOrderList, MyWishList } from "../views/user";
+import SingleProduct from "../components/SingleProduct.vue";
 
 
 
 const routes = [
   { path: "/", name: "index", component: Index, meta: { title: "Home" } },
   { path: "/shop", name: "shop", component: Shop, meta: { title: "Shop" } },
-  { path: "/user.profile", name: "user.profile", component: MyProfile, meta: { title: "My Profile" } },
-  { path: "/user.orderlist", name: "user.orderlist", component: MyOrderList, meta: { title: "My Order List" } },
-  { path: "/user.wishlist", name: "user.wishlist", component: MyWishList, meta: { title: "My Wish List" } },
+  { path: "/single-product", name: "single-product", component: SingleProduct, meta: { title: "Single Product" } },
+  { path: "/user/profile", name: "user.profile", component: MyProfile, meta: { title: "My Profile" } },
+  { path: "/user/orderlist", name: "user.orderlist", component: MyOrderList, meta: { title: "My Order List" } },
+  { path: "/user/wishlist", name: "user.wishlist", component: MyWishList, meta: { title: "My Wish List" } },
   {
     path: "/seller-page",
     name: "seller-page",
@@ -28,7 +30,7 @@ const routes = [
     meta: { title: "Seller-List" },
   },
   {
-    path: "/seller.apply",
+    path: "/seller/apply",
     name: "seller.apply",
     component: SellerApply,
     meta: { title: "Seller Apply" },

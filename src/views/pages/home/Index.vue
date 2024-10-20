@@ -210,9 +210,9 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
                 </div>
                 <button class="product-wish wish">
                   <i class="fas fa-heart"></i></button
-                ><a class="product-image" href="product-video.html"
+                ><router-link :to="{name: 'single-product'}" class="product-image" 
                   ><img src="@/assets/images/product/01.jpg" alt="product"
-                /></a>
+                /></router-link>
               </div>
               <div class="product-content">
                 <h6 class="product-name">
