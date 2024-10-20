@@ -16,7 +16,7 @@ const bannerImage = new URL('@/assets/images/single-banner.jpg', import.meta.url
     }"
   >
   
-      <div class="container"><h2>Seller List</h2></div>
+      <div class="container"><h2>Seller Page</h2></div>
     </section>
     <section class="inner-section">
       <div class="container">
@@ -44,18 +44,22 @@ const bannerImage = new URL('@/assets/images/single-banner.jpg', import.meta.url
             <div class="product-card">
               <ul>
                 <li>
-                  <a href="shop-4column.html" class="suggest-card"
+                  <router-link :to="{name: 'seller-list'}" class="suggest-card"
                     ><img
                       src="http://127.0.0.1:8000/uploads/seller/shop/06302022121319pBkM9ZNbR53vC4RO_250_250.png"
                       alt="seller lists"
-                  /></a>
+                  /></router-link>
                   <div class="brand-meta">
                     <h4 class="text-center">dafad</h4>
                     <p class="text-center">0 Products</p>
                     <div class="form-button">
-                      <button type="submit">
-                        Visit Store <i class="fas fa-angle-right"></i>
-                      </button>
+                      
+                        <button type="submit">
+                          <router-link :to="{name: 'seller-list'}">
+                          Visit Store <i class="fas fa-angle-right"></i>
+                          </router-link>
+                        </button>
+                      
                     </div>
                   </div>
                 </li>
@@ -66,18 +70,22 @@ const bannerImage = new URL('@/assets/images/single-banner.jpg', import.meta.url
             <div class="product-card">
               <ul>
                 <li>
-                  <a href="shop-4column.html" class="suggest-card"
+                  <router-link :to="{name: 'seller-list'}" class="suggest-card"
                     ><img
                       src="http://127.0.0.1:8000/uploads/seller/shop/06302022121319pBkM9ZNbR53vC4RO_250_250.png"
                       alt="seller lists"
-                  /></a>
+                  /></router-link>
                   <div class="brand-meta">
-                    <h4 class="text-center">dafa</h4>
+                    <h4 class="text-center">dafad</h4>
                     <p class="text-center">0 Products</p>
                     <div class="form-button">
-                      <button type="submit">
-                        Visit Store <i class="fas fa-angle-right"></i>
-                      </button>
+                      
+                        <button type="submit">
+                          <router-link :to="{name: 'seller-list'}">
+                          Visit Store <i class="fas fa-angle-right"></i>
+                          </router-link>
+                        </button>
+                      
                     </div>
                   </div>
                 </li>
@@ -88,18 +96,22 @@ const bannerImage = new URL('@/assets/images/single-banner.jpg', import.meta.url
             <div class="product-card">
               <ul>
                 <li>
-                  <a href="shop-4column.html" class="suggest-card"
+                  <router-link :to="{name: 'seller-list'}" class="suggest-card"
                     ><img
                       src="http://127.0.0.1:8000/uploads/seller/shop/06302022121319pBkM9ZNbR53vC4RO_250_250.png"
                       alt="seller lists"
-                  /></a>
+                  /></router-link>
                   <div class="brand-meta">
-                    <h4 class="text-center">data is missing</h4>
+                    <h4 class="text-center">dafad</h4>
                     <p class="text-center">0 Products</p>
                     <div class="form-button">
-                      <button type="submit">
-                        Visit Store <i class="fas fa-angle-right"></i>
-                      </button>
+                      
+                        <button type="submit">
+                          <router-link :to="{name: 'seller-list'}">
+                          Visit Store <i class="fas fa-angle-right"></i>
+                          </router-link>
+                        </button>
+                      
                     </div>
                   </div>
                 </li>
@@ -110,18 +122,22 @@ const bannerImage = new URL('@/assets/images/single-banner.jpg', import.meta.url
             <div class="product-card">
               <ul>
                 <li>
-                  <a href="shop-4column.html" class="suggest-card"
+                  <router-link :to="{name: 'seller-list'}" class="suggest-card"
                     ><img
                       src="http://127.0.0.1:8000/uploads/seller/shop/06302022121319pBkM9ZNbR53vC4RO_250_250.png"
                       alt="seller lists"
-                  /></a>
+                  /></router-link>
                   <div class="brand-meta">
-                    <h4 class="text-center">testijng data</h4>
+                    <h4 class="text-center">dafad</h4>
                     <p class="text-center">0 Products</p>
                     <div class="form-button">
-                      <button type="submit">
-                        Visit Store <i class="fas fa-angle-right"></i>
-                      </button>
+                      
+                        <button type="submit">
+                          <router-link :to="{name: 'seller-list'}">
+                          Visit Store <i class="fas fa-angle-right"></i>
+                          </router-link>
+                        </button>
+                      
                     </div>
                   </div>
                 </li>
@@ -132,18 +148,22 @@ const bannerImage = new URL('@/assets/images/single-banner.jpg', import.meta.url
             <div class="product-card">
               <ul>
                 <li>
-                  <a href="shop-4column.html" class="suggest-card"
+                  <router-link :to="{name: 'seller-list'}" class="suggest-card"
                     ><img
                       src="http://127.0.0.1:8000/uploads/seller/shop/06302022121319pBkM9ZNbR53vC4RO_250_250.png"
                       alt="seller lists"
-                  /></a>
+                  /></router-link>
                   <div class="brand-meta">
-                    <h4 class="text-center">any data</h4>
+                    <h4 class="text-center">dafad</h4>
                     <p class="text-center">0 Products</p>
                     <div class="form-button">
-                      <button type="submit">
-                        Visit Store <i class="fas fa-angle-right"></i>
-                      </button>
+                      
+                        <button type="submit">
+                          <router-link :to="{name: 'seller-list'}">
+                          Visit Store <i class="fas fa-angle-right"></i>
+                          </router-link>
+                        </button>
+                      
                     </div>
                   </div>
                 </li>
@@ -154,18 +174,22 @@ const bannerImage = new URL('@/assets/images/single-banner.jpg', import.meta.url
             <div class="product-card">
               <ul>
                 <li>
-                  <a href="shop-4column.html" class="suggest-card"
+                  <router-link :to="{name: 'seller-list'}" class="suggest-card"
                     ><img
                       src="http://127.0.0.1:8000/uploads/seller/shop/06302022121319pBkM9ZNbR53vC4RO_250_250.png"
                       alt="seller lists"
-                  /></a>
+                  /></router-link>
                   <div class="brand-meta">
-                    <h4 class="text-center">SS Computer</h4>
+                    <h4 class="text-center">dafad</h4>
                     <p class="text-center">0 Products</p>
                     <div class="form-button">
-                      <button type="submit">
-                        Visit Store <i class="fas fa-angle-right"></i>
-                      </button>
+                      
+                        <button type="submit">
+                          <router-link :to="{name: 'seller-list'}">
+                          Visit Store <i class="fas fa-angle-right"></i>
+                          </router-link>
+                        </button>
+                      
                     </div>
                   </div>
                 </li>
@@ -176,18 +200,48 @@ const bannerImage = new URL('@/assets/images/single-banner.jpg', import.meta.url
             <div class="product-card">
               <ul>
                 <li>
-                  <a href="shop-4column.html" class="suggest-card"
+                  <router-link :to="{name: 'seller-list'}" class="suggest-card"
                     ><img
-                      src="http://127.0.0.1:8000/uploads/seller/shop/07022022032357LeHFrk4a5SWRJcDf_250_250.jpg"
+                      src="http://127.0.0.1:8000/uploads/seller/shop/06302022121319pBkM9ZNbR53vC4RO_250_250.png"
                       alt="seller lists"
-                  /></a>
+                  /></router-link>
                   <div class="brand-meta">
-                    <h4 class="text-center">Uc Techonology</h4>
-                    <p class="text-center">11 Products</p>
+                    <h4 class="text-center">dafad</h4>
+                    <p class="text-center">0 Products</p>
                     <div class="form-button">
-                      <button type="submit">
-                        Visit Store <i class="fas fa-angle-right"></i>
-                      </button>
+                      
+                        <button type="submit">
+                          <router-link :to="{name: 'seller-list'}">
+                          Visit Store <i class="fas fa-angle-right"></i>
+                          </router-link>
+                        </button>
+                      
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-card">
+              <ul>
+                <li>
+                  <router-link :to="{name: 'seller-list'}" class="suggest-card"
+                    ><img
+                      src="http://127.0.0.1:8000/uploads/seller/shop/06302022121319pBkM9ZNbR53vC4RO_250_250.png"
+                      alt="seller lists"
+                  /></router-link>
+                  <div class="brand-meta">
+                    <h4 class="text-center">dafad</h4>
+                    <p class="text-center">0 Products</p>
+                    <div class="form-button">
+                      
+                        <button type="submit">
+                          <router-link :to="{name: 'seller-list'}">
+                          Visit Store <i class="fas fa-angle-right"></i>
+                          </router-link>
+                        </button>
+                      
                     </div>
                   </div>
                 </li>
