@@ -55,6 +55,21 @@ function cartShow() {
                     Register</router-link
                   >
                 </li>
+                <li>
+                  <router-link :to="{ name: 'user.profile' }" class="dropdown-item">
+                    My Profile</router-link
+                  >
+                </li>
+                <li>
+                  <router-link :to="{ name: 'user.orderlist' }" class="dropdown-item">
+                    My Order List</router-link
+                  >
+                </li>
+                <li>
+                  <router-link :to="{ name: 'user.wishlist' }" class="dropdown-item">
+                    My Wish List</router-link
+                  >
+                </li>
               </ul>
             </li>
 
