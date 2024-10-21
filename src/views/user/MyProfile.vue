@@ -3,18 +3,8 @@
 
 </script>
 
-<template>
-    <div>
-        <h1>this is My profile</h1>
-    </div>
-</template>
 
 
-<style scoped>
-
-</style>
-
-<script setup></script>
 
 <template>
   <div>
@@ -482,4 +472,4 @@
 </template>
 
 <style scoped></style>
->>>>>>> a87f7012b22cc4378e0b457c652c3397fa3f0754
+

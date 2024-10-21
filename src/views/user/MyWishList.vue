@@ -3,13 +3,6 @@
 
 </script>
 
-<template>
-    <div>
-        <h1>this is My wishlist</h1>
-
-    </div>
-</template>
-
 
 <style scoped>
 
@@ -246,4 +239,4 @@
 </template>
 
 <style scoped></style>
->>>>>>> a87f7012b22cc4378e0b457c652c3397fa3f0754
+

@@ -5,10 +5,9 @@ import Shop from "../views/pages/shop/Shop.vue";
 import { SellerPage, SellerList, SellerApply } from "@/views/pages/seller";
 import WishList from "../views/pages/wishlist/WishList.vue";
 import { Login, Register } from "@/views/auth";
-import MyWishList from "../views/user/MyWishList.vue";
-import MyOrderList from "../views/user/MyOrderList.vue";
 import {MyProfile, MyOrderList, MyWishList, Checkout } from "../views/user";
 import SingleProduct from "../components/SingleProduct.vue";
+
 
 
 
