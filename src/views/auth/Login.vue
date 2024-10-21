@@ -1,4 +1,34 @@
-<script setup></script>
+<script setup>
+import { reactive } from 'vue';
+
+
+import { useAuth } from '@/stores/auth';
+// import { storeToRefs } from 'pinia';
+// import { ref } from 'vue';
+
+// const store = useCounter();
+// const {count, doubleCount} = storeToRefs(store);
+
+// const bigger = () => {
+//   store.increment ();
+// }
+// const smaller = () => {
+//   store.decrement ();
+// }
+
+const auth = useAuth();
+
+const form = reactive({
+  phone: "",
+  password: "",
+})
+
+
+const onSubmit = async () => {
+await auth.login(form);
+};
+
+</script>
 
 <template>
   <div>
@@ -12,13 +42,14 @@
                 <p>Use your credentials to access</p>
               </div>
               <div class="user-form-group" id="axiosForm">
-                <form class="user-form">
+                <form class="user-form" @submit.prevent="onSubmit">
                   <!--v-if-->
                   <div class="form-group">
                     <input
                       type="text"
                       class="form-control"
                       placeholder="phone no"
+                      v-model="form.phone"
                     /><!--v-if-->
                   </div>
                   <div class="form-group">
@@ -26,6 +57,7 @@
                       type="password"
                       class="form-control"
                       placeholder="password"
+                      v-model="form.password"
                     /><span class="view-password"
                       ><i class="fas text-success fa-eye"></i></span>
                       <!--v-if-->
@@ -42,11 +74,12 @@
                   </div>
                   <div class="form-button">
                     <button type="submit">login</button>
+                   
                     <p>
                       Forgot your password?<a
                         href="reset-password.html"
                         class=""
-                        >reset here</a
+                        >reset here</a 
                       >
                     </p>
                   </div>
